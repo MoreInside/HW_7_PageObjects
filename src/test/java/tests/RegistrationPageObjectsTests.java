@@ -25,15 +25,15 @@ public class RegistrationPageObjectsTests extends TestBase {
                 .submit();
 
         registrationPage.checkResult("Student Name", "Василий Тестов")
-                .checkResult("Student Email","test@test.com")
+                .checkResult("Student Email", "test@test.com")
                 .checkResult("Gender", "Male")
-                .checkResult("Mobile","9123456789")
+                .checkResult("Mobile", "9123456789")
                 .checkResult("Date of Birth", "17 May,2000")
                 .checkResult("Subjects", "Chemistry")
                 .checkResult("Hobbies", "Sports")
                 .checkResult("Picture", "images.png")
                 .checkResult("Address", "Moscow, Prospekt Mira str.")
-                .checkResult("State and City","Uttar Pradesh");
+                .checkResult("State and City", "Uttar Pradesh");
     }
 
 

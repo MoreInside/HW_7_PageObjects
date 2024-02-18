@@ -17,6 +17,7 @@ public class RegistrationTests {
         //Configuration.holdBrowserOpen = true;
         Configuration.timeout = 5000; // default 4000
     }
+
     @Test
     void fillFormTest() {
         open("/automation-practice-form");
