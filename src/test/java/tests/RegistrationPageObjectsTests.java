@@ -3,7 +3,7 @@ package tests;
 import org.junit.jupiter.api.Test;
 import pages.RegistrationPage;
 
-public class RegistrationTestsPageObjects extends TestBase {
+public class RegistrationPageObjectsTests extends TestBase {
 
     RegistrationPage registrationPage = new RegistrationPage();
 
@@ -38,7 +38,7 @@ public class RegistrationTestsPageObjects extends TestBase {
 
 
     @Test
-    void minimalRegistrationTest() {
+    void minRegistrationTest() {
         registrationPage.openPage()
                 .setFirstName("Василий")
                 .setLastName("Тестов")
